@@ -1,3 +1,3 @@
 # Head-First-Java
 
-------MASTER OF NOTHING------
+------** MASTER OF NOTHING **------
