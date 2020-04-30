@@ -1,6 +1,6 @@
+import java.util.Scanner;
 
-
-  class Animal {
+class Animal {
     String picture;
     String food;
     String hunger;
@@ -87,5 +87,21 @@ public class AnimalTestDrive {
      Cat c=new Cat();
      list.add(a);
      list.add(c);
+     System.out.println("\noutput for equals(Object o) : ");
+     if(a.equals(c)){
+          System.out.println("true");
+      }
+    else{ System.out.println("false");}
+
+    System.out.println("\noutput for getclass() : ");
+    System.out.println(c.getClass());
+
+    System.out.println("\noutput for Hashcode() : ");
+    System.out.println(c.hashCode());
+
+    System.out.println("\noutput for toString() : ");
+    System.out.println(c.toString());
+
+
  }
 }
