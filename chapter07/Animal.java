@@ -15,50 +15,50 @@ public class Animal {
 
 }
 
-class Feline{
+class Feline extends Animal{
     public void roam(){}
 }
 
-class canine{
+class canine extends Animal {
     public void Canine(){}
 }
 
-class Lion{
+class Lion extends Feline{
     public
     void makeNoise(){}
     void eat(){}
    
 }
 
-class hippo{
+class hippo extends Animal{
     public 
     void makeNoise(){}
     void eat(){}
 
 }
 
-class tiger{
+class tiger extends Feline{
     public
     void makeNoise(){}
     void eat(){}
 
 }
 
-class Dog{
+class Dog extends canine{
     public 
     void makeNoise(){}
     void eat(){}
 
 }
 
-class cat{
+class cat extends Feline{
     public 
     void makeNoise(){}
     void eat(){}
 
 }
 
-class wolf{
+class wolf extends canine{
     public
     void makeNoise(){}
     void eat(){}
