@@ -93,6 +93,7 @@ class Animal {
         void eat(){}
         wolf(){
             System.out.println("Wolf class constructor");
+            System.out.println("hello");
         }
         
     }
